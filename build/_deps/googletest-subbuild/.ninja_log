@@ -1,0 +1,21 @@
+# ninja log v6
+1856	1893	1792936465618456857	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	61b96dd5d8327330
+1819	1856	1792936465578455728	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	8e95ef9782232a7a
+1782	1819	1792936465542454713	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	dee5881b982779a1
+1	43	1792936463766404608	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	8d9d7687d44f62f5
+1782	1819	1792936465542454713	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	dee5881b982779a1
+1746	1782	1792936465506453697	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	454f8abb1cf62b18
+1710	1746	1792936465470452681	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	da478ee35b2afb56
+1931	1994	1792936465714459565	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	c567e91fdab75ed2
+1931	1994	1792936465714459565	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	c567e91fdab75ed2
+1893	1931	1792936465654457873	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	38eb104006d32a8e
+1893	1931	1792936465654457873	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	38eb104006d32a8e
+1	43	1792936463766404608	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	8d9d7687d44f62f5
+1710	1746	1792936465470452681	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	da478ee35b2afb56
+1931	1994	1792936465714459565	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	c567e91fdab75ed2
+43	1710	1792936465434451666	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f18e829eef13c609
+1746	1782	1792936465506453697	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	454f8abb1cf62b18
+1819	1856	1792936465578455728	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	8e95ef9782232a7a
+1931	1994	1792936465714459565	CMakeFiles/googletest-populate-complete	c567e91fdab75ed2
+1856	1893	1792936465618456857	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	61b96dd5d8327330
+43	1710	1792936465434451666	/home/cesar/Proyectos/cpp_template/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f18e829eef13c609

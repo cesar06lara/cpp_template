@@ -1,0 +1,28 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Instalar dependencias
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake ninja-build build-essential
+
+    - name: Configurar CMake
+      run: cmake -B build -G Ninja
+
+    - name: Compilar Proyecto y Pruebas
+      run: cmake --build build
+
+    - name: Ejecutar Pruebas Unitarias (GoogleTest)
+      run: ctest --test-dir build --output-on-failure

@@ -1,0 +1,5 @@
+add_test([=[EntornoTest.SumaBasica]=]  /home/cesar/Proyectos/cpp_template/build/unit_tests [==[--gtest_filter=EntornoTest.SumaBasica]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[EntornoTest.SumaBasica]=]  PROPERTIES WORKING_DIRECTORY /home/cesar/Proyectos/cpp_template/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[EntornoTest.ValidarCPlusPlus23]=]  /home/cesar/Proyectos/cpp_template/build/unit_tests [==[--gtest_filter=EntornoTest.ValidarCPlusPlus23]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[EntornoTest.ValidarCPlusPlus23]=]  PROPERTIES WORKING_DIRECTORY /home/cesar/Proyectos/cpp_template/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  unit_tests_TESTS EntornoTest.SumaBasica EntornoTest.ValidarCPlusPlus23)
