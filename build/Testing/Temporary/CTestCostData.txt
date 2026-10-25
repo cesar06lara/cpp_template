@@ -1,3 +1,0 @@
-EntornoTest.SumaBasica 1 0.00367597
-EntornoTest.ValidarCPlusPlus23 1 0.00381063
----
