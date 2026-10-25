@@ -23,12 +23,14 @@ enable_testing()
 include_directories(include)
 
 # Ejecutable principal
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp src/math_utils.cpp)
 
 # Pruebas unitarias
 add_executable(
   unit_tests
   tests/test_main.cpp
+  tests/test_math.cpp
+    src/math_utils.cpp
 )
 
 target_link_libraries(
